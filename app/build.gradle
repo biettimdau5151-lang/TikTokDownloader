@@ -22,7 +22,7 @@ android {
                 buildPython "python3"
             }
             pip {
-                install "yt-dlp"
+                install "yt-dlp>=2026"
                 install "brotli"
             }
         }
