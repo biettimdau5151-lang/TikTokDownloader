@@ -1,0 +1,29 @@
+@echo off
+chcp 65001 >nul
+echo ============================
+echo TikTok Downloader - Android
+echo ============================
+echo.
+echo YEU CAU:
+echo - Android Studio (https://developer.android.com/studio)
+echo - USB debug mode hoac file .apk
+echo.
+echo BUOC 1: Mo Android Studio
+echo   File -^> Open -^> Chon thu muc AndroidApp
+echo.
+echo BUOC 2: Doi Gradle sync xong
+echo   (Cho no tai ve may phut)
+echo.
+echo BUOC 3: Ket noi dien thoai hoac Build APK
+echo   Option A: Cam USB, bat USB debug -^> Run
+echo   Option B: Build -^> Build Bundle(s) / APK -^> Build APK
+echo.
+echo BUOC 4: File APK nam o:
+echo   app\build\outputs\apk\debug\app-debug.apk
+echo.
+echo NOTE:
+echo - Lan dau build lau vi Python phai download ve
+echo - File users.txt doc tu app, nhap truc tiep tren man hinh
+echo - Video luu trong Downloads cua app
+echo.
+pause

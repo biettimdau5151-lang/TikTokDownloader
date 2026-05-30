@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap username, moi dong 1 ten"
+        android:gravity="top"
+        android:minLines="5"
+        android:text="emxinhtdtu" />
+
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:text="San sang..."
+        android:textIsSelectable="true" />
+
+</LinearLayout>
