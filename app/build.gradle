@@ -24,7 +24,6 @@ android {
             pip {
                 install "yt-dlp"
                 install "brotli"
-                install "curl_cffi>=0.14,<0.15"
             }
         }
         ndk {
